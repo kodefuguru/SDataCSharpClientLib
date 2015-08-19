@@ -8,6 +8,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage.SData.Client", "Sage.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sage.SData.Client.Test", "Sage.SData.Client.Test\Sage.SData.Client.Test.csproj", "{92C27580-82D9-46FC-8E4A-9B75E6FF6C2B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23EC66AC-EC6F-4B84-B627-0E131785326B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		LICENSE.Argotic = LICENSE.Argotic
+		LICENSE.Moq = LICENSE.Moq
+		LICENSE.NUnit = LICENSE.NUnit
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{2AD93AAF-4AB9-4A66-8E04-1422774777D4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Intro to SData CSharp Client Lib.doc = docs\Intro to SData CSharp Client Lib.doc
+		docs\SDataClientAPI.chm = docs\SDataClientAPI.chm
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licenses", "Licenses", "{8C2F3B21-F1F3-462C-B625-28FEB3681A0C}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		LICENSE.Argotic = LICENSE.Argotic
+		LICENSE.Moq = LICENSE.Moq
+		LICENSE.NUnit = LICENSE.NUnit
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +52,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AD93AAF-4AB9-4A66-8E04-1422774777D4} = {23EC66AC-EC6F-4B84-B627-0E131785326B}
+		{8C2F3B21-F1F3-462C-B625-28FEB3681A0C} = {23EC66AC-EC6F-4B84-B627-0E131785326B}
 	EndGlobalSection
 EndGlobal

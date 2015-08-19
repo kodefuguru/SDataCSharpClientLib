@@ -3,13 +3,13 @@ Sage SData Client Libraries for .NET
 
 This repository contains the following
 
-*	A .NET 3.5 library for consuming [SData](http://sdata.sage.com).
+*	A .NET 4.5.1 library for consuming [SData](http://sdata.sage.com).
 *	A set of unit tests
-*	A WinForms application, which demonstrates various features of the API
+*	A WinForms application demonstrating various features of the API
 
-For information about the client library and examples on how to use it, check out "Intro to SData CSharp Client Lib.doc" in the [docs](https://github.com/SageScottsdalePlatform/SDataCSharpClientLib/tree/master/docs/) subfolder.
+For information about the client library and examples on how to use it, check out "Intro to SData CSharp Client Lib.doc" in the [docs](https://github.com/kodefuguru/SDataCSharpClientLib/tree/master/docs/) subfolder.
 
-Also, keep an eye on the [Wiki](https://github.com/SageScottsdalePlatform/SDataCSharpClientLib/wikis) for up-to-date information.
+Also, keep an eye on the [Wiki](https://github.com/kodefuguru/SDataCSharpClientLib/wikis) for up-to-date information.
 
 ## Examples
 
