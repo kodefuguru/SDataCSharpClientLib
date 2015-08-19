@@ -1,18 +1,11 @@
-﻿/****************************************************************************
-Modification History:
-*****************************************************************************
-Date		Author		Description
-*****************************************************************************
-11/26/2007	brian.kuhn	Created Guard Class
-****************************************************************************/
-using System;
+﻿using System;
 
 namespace Sage.SData.Client.Common
 {
     /// <summary>
     /// Provides common validation methods shared across the framework entities. This class cannot be inherited.
     /// </summary>
-    public static class Guard
+    internal static class Guard
     {
         //============================================================
         //	METHOD ARGUMENT VALIDATION
